@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import ContactElement from './ContactElement';
 
+
 const ContactList = ({ contacts, onDeleteContact }) => (
   <ul>
     {contacts.map(({ name, number, id }) => (
